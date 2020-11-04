@@ -17,6 +17,12 @@ int main()
   //taking an input from the user
   cout<<a<<b;
   //multiple variables you want to produce the answer in console you can do like this
+  //to print something on the console as a text use " " and type in your sentence
+  cout<<"Hello"
+  //combination of text and variable in cout
+  cout<<"Hello"<<a<<"Bye"<<b;
+  //to produce answer in next line use endl-end of the line
+  cout<<a<<endl;//it will go to next line after printing a variable answer
   return 0;
   //It denotes that program is excecuted successfully
  } 
