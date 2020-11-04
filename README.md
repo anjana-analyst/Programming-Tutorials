@@ -1,7 +1,7 @@
-# C-and-C-Tutorials
+# Programming Tutorials
 Basic looping and advanced functions covered
 
-Day-1<br>
-First we are going to see different header files used in C and C++<br>
+Day-1(C++)<br>
+Basic input and output functions<br>
 Basic operators usage<br>
 questions based on operators GATE Exam
