@@ -12,6 +12,12 @@ int main()
   //assinging the variable
   cout<<a;
   //print the variable if we don't use namespace do std::cout<<a
+  int b;
+  cin>>b;
+  //taking an input from the user
+  cout<<a<<b;
+  //multiple variables you want to produce the answer in console you can do like this
   return 0;
   //It denotes that program is excecuted successfully
  } 
+//Note: we can take any type of input on same cin like int a; char b; cin>>a>>b; we can do the compiler will undersatnd and assign 
