@@ -1,0 +1,65 @@
+1)
+#include "stdio.h"
+int main() 
+{ 
+  int x, y = 5, z = 5; 
+  x = y == z; 
+  printf("%d", x); 
+  
+  getchar(); 
+  return 0; 
+}
+
+Answer: 1 because x=y==z first according to precedence relational is first so y==z equated left to right so 5==5 is 1 and then it is assigned  to x as assignment operator is right to left and now x=1 is assigned so the answer is 1
+
+2)
+#include <stdio.h>
+int main()
+{
+    int i = 1, 2, 3;
+    printf("%d", i);
+    return 0;
+}
+
+Answer: Compile time Error because when we are assigning comma acts as a seperator. The compiler creates an integer variable and assigns 1 now when it sees 2 it is not a valid identifier.
+
+3)
+#include <stdio.h>
+int main()
+{
+ int i=(1,2,3);
+ printf("%d",i);
+ return 0;
+}
+
+Answer: The bracket operator has higher precedence than assignment operator.So the expression inside the bracket is evaluated as last from left to right so value is 3 is last assigned.
+
+4)
+#include <stdio.h> 
+int main()
+{
+   int a = 1;
+   int b = 1;
+   int c = a || --b;
+   int d = a-- && --b;
+   printf("a = %d, b = %d, c = %d, d = %d", a, b, c, d);
+   return 0;
+}
+
+Answer: We see logical OR and logical AND so a|| --b rule is if first statement is true  the second statement is ignored the value of c becomes 1. In a-- && --b rule if first statement is true it checks another and --b is zero which is false so the answer of d is false. Thus a=0 after a-- statement ,b=0,c=1,d=0.
+
+5)
+#include <stdio.h> 
+int main() 
+{ 
+  int a = 10, b = 20, c = 30; 
+  if (c > b > a) 
+    printf("TRUE"); 
+  else
+    printf("FALSE"); 
+  return 0; 
+}
+
+Answer:There are two greater than (>) operators in expression 
+“c > b > a”, associativity of > is considered. 
+Associativity of > is left to right. So, expression c > b > a is evaluated as ( (c > b) > a ) which is false.
