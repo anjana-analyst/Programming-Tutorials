@@ -12,7 +12,7 @@ int main()
    cout<<"The multiplication of two numbers is"<<a*b;
    //4  /(divides two numbers)
    cout<<"The division of two numbers is"<<a/b;
-   //5 %(gives the remainder of the division)
+   //5 %(gives the remainder of the division if a is +ve then ans +ve if a is -ve ans -ve
    cout<<"The modulo of two numbers is"<<a%b;
    //6 ++(increments a given digit by 1)
    cout<<"The increment of a is"<<a++;
