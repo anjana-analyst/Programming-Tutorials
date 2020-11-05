@@ -61,5 +61,5 @@ int main()
 }
 
 Answer:There are two greater than (>) operators in expression 
-“c > b > a”, associativity of > is considered. 
+â€œc > b > aâ€, associativity of > is considered. 
 Associativity of > is left to right. So, expression c > b > a is evaluated as ( (c > b) > a ) which is false.
