@@ -1,0 +1,61 @@
+Hint: for sizeof questions check the assumption and if not take 4 as default
+
+1)
+#include <stdio.h>
+int main()
+{
+    int i = 3;
+    printf("%d", (++i)++);
+    return 0;
+}
+
+Ans: compile time error because ++i becomes 4 and now 4 is a value and 4++ cannot be incremented
+
+2)
+#include <stdio.h>
+int main()
+{
+    int i = 5, j = 10, k = 15;
+    printf("%d ", sizeof(k /= i + j));
+    printf("%d", k);
+    return 0;
+}
+
+Ans:4 15 since sizeof(k/=i+j) will be evaluated but not be assigned so for an integer sizeof is 4 and k value will not be changed since sizeof operator expression will not be evaluated so it remains as 15
+
+3)
+#include <stdio.h>
+int main()
+{
+  //Assume sizeof character is 1 byte and sizeof integer is 4 bytes
+    printf("%d", sizeof(printf("GeeksQuiz")));
+    return 0;
+} 
+
+Ans: 4 because as we saw in previous question the expression inside sizeof operator will not be evaluated. Now printf returns 9 and sizeof(9) is an integer so it will return 4
+
+4)
+#include<stdio.h>
+int main()
+{
+  int a = 2,b = 5;
+  a = a^b;
+  b = b^a;
+  printf("%d %d",a,b);
+  return 0;
+}
+
+Ans: 7 2 because 2 is (10) and 5 is (101) so 10^101=111 which is 7
+                                             111^10=10 which is 2
+
+5)
+#include <stdio.h>
+int main()
+{
+   int x = 10;
+   int y = (x++, x++, x++);
+   printf("%d %dn", x, y);
+   return 0;
+}
+
+Ans: 13 12 because x++ is 10 and x becomes 11 and then x++ so 11 and then it becomes 12 then x++ so 12 then it is assigned to y and then incremented so when printed x value becomes 13 and y is 12
