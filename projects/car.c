@@ -1,3 +1,4 @@
+// A simple 2 fn app for buying car using amount that comes on the screen , total_sales by adding total cart amount and cart value which gives insight of what we added in cart
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
