@@ -9,3 +9,7 @@ questions based on operators GATE Exam
 Day-2<br>
 Remaining Operators<br>
 questions based on operators GATE Exam
+
+Day-3<br>
+Conditional statements<br>
+questions based on if-else GATE Exam
