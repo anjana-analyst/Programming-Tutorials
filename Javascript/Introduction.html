@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>GetElementById variations</h2>
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+<br><br>
+
+<button type="button" onclick='document.getElementById("demo").style.fontSize = "30px"'>Click Me to change font!</button>
+
+<br><br>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click on me to hide!</button>
+
+<br><br>
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">Click on Me to reveal!</button>
+
+<br><br>
+
+<button type="button" onclick='document.getElementById("gif").src="https://st2.depositphotos.com/8511412/11363/v/950/depositphotos_113639238-stock-illustration-sun-icon-sun-icon-eps10.jpg"'>ON</button>
+
+<button type="button" onclick='document.getElementById("gif").src="https://st.depositphotos.com/1526816/4093/v/950/depositphotos_40935303-stock-illustration-a-sky-with-stars-and.jpg"'>OFF</button>
+<br>
+
+<img id="gif" src="https://st.depositphotos.com/1331616/2223/v/950/depositphotos_22230009-stock-illustration-lightbulb-blue-man.jpg" style="width:100px">
+</body>
+</html>
+
+<!-- you can use document.getElementById('first') ie single quotes too-->
