@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2> JS Variables </h2>
+<p id="demo">The addition of 5 and 10 is </p>
+<p id="display"></p>
+<script>
+var carName="Volvo";
+var a=5;
+var b=10;
+var Name="analyst", Age=35, Course="CSBS";
+document.write(a+b);
+console.log(a+=b);
+document.write(a);
+//we can do any assignment operation
+document.write("<br>");
+document.write(Name+" "+Age+" "+Course);
+document.write("<br>");
+document.getElementById("demo").innerHTML="The addition of 5+10 is";
+var c={
+         Course:"MECH",
+         CGPA:78,
+         Grade:"A"
+       };
+document.getElementById("display").innerHTML=c.Course+" "+c.CGPA+" "+c.Grade;
+</script>
+</body>
+</html>
