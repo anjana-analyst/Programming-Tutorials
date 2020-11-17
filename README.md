@@ -1,15 +1,9 @@
 # Programming Tutorials
-Basic looping and advanced functions covered
-
-Day-1(C++)<br>
-Basic input and output functions<br>
-Basic operators usage<br>
-questions based on operators GATE Exam
-
-Day-2<br>
-Remaining Operators<br>
-questions based on operators GATE Exam
-
-Day-3<br>
-Conditional statements<br>
-questions based on if-else GATE Exam
+Basic looping and advanced functions covered<br>
+Programming languages covered<br>
+<ul>
+  <li> C </li>
+  <li> C++ </li>
+  <li> JS </li>
+  <li> Python </li>
+</ul>
