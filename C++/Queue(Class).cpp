@@ -7,7 +7,7 @@ class Queue
 {
 private:
     int item, i;
-    int queue[max] ;;
+    int queue[max];
     int rear;
     int front;
 
@@ -20,7 +20,7 @@ public:
     }
 
     void insert() {
-        if (rear == max)
+        if (rear == max-1)                                                                         
             cout << "\nQueue Reached Max!";
         else {
             cout << "\nEnter The Value to be Insert : ";
@@ -28,7 +28,7 @@ public:
             queue[rear++] = item;
         }
     }
-
+                                                                                           
     void removeData() {
         if (front == rear)
             cout << "\nQueue is Empty!";
