@@ -22,6 +22,6 @@ int main()
 {
     int arr[]={66,57,54,53,64,52,59};
     int n=sizeof(arr)/sizeof(int);
-    best_score(arr,7);
+    best_score(arr,n);
     return 0;
 }
