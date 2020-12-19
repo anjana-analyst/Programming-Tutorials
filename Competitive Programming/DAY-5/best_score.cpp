@@ -20,7 +20,8 @@ void best_score(int times[],int n)
 
 int main()
 {
-    int arr[7]={66,57,54,53,64,52,59};
+    int arr[]={66,57,54,53,64,52,59};
+    int n=sizeof(arr)/sizeof(int);
     best_score(arr,7);
     return 0;
 }
