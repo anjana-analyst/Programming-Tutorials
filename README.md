@@ -5,5 +5,4 @@ Programming languages covered<br>
   <li> C </li>
   <li> C++ </li>
   <li> JS </li>
-  <li> Python </li>
 </ul>
