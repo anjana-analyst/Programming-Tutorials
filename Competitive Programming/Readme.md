@@ -78,3 +78,6 @@ Solve without using conditional statements and the loop.
 
 Day 19:<br>
 Write a python program to print semicolon without using a semicolon anywhere in the code.
+
+Day 20:<br>
+To find the square of a number without using actual multiplication or division
