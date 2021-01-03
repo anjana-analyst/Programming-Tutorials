@@ -41,6 +41,10 @@ int main()
     cin>>hours;
     cout<<"Enter minutes";
     cin>>minutes;
-    cout<<anglecalc(hours,minutes);    
+    int c=anglecalc(hours,minutes);   
+    if(c==0)
+    cout<<"Hour and minute overlapped";
+    else
+    cout<<"Angle is"<<c<<"degrees";
     return 0;
 }
