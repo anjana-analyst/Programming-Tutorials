@@ -83,4 +83,10 @@ Day 20:<br>
 To find the square of a number without using actual multiplication or division
 
 Day 21:<br>
-To convert integer number to binary.
+Write a program that for a given hour and minutes values calculates an angle in degree between the hour and the minute hands. Check whether the minute hand overlapping the hour hand at a given time.
+
+Day 22:<br>
+Write a python program to find if a given year is a leap year or not
+
+Day 23:<br>
+Write a python program to convert integer values into binary
