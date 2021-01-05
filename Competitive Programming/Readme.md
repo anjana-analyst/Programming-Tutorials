@@ -16,7 +16,7 @@ During the last week track of training,Shoshanna achieves the following times in
 Rounds - 66, 57, 54, 53, 64, 52, 59
 Find her best score using bubble sort
 
-Day 06:>br>
+Day 06:<br>
 A floppy disk shows f bytes of free and u bytes of used. If you delete a file of size o bytes and create a new file of size n bytes, how many free bytes will the floppy disk have? f,u,o,n are the user-entered value
 
 Day 07:<br>
@@ -81,3 +81,6 @@ Write a python program to print semicolon without using a semicolon anywhere in 
 
 Day 20:<br>
 To find the square of a number without using actual multiplication or division
+
+Day 21:<br>
+To convert integer number to binary.
