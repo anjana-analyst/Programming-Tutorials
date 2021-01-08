@@ -90,3 +90,12 @@ Write a python program to find if a given year is a leap year or not
 
 Day 23:<br>
 Write a python program to convert integer values into binary
+
+Day 24:<br>
+Write a code to convert an integer to roman numeral
+
+Day 25:<br>
+Valid Password Checker
+
+Day 26:<br>
+Celsius to farenheit conversion
