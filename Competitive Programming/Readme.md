@@ -99,3 +99,6 @@ Valid Password Checker
 
 Day 26:<br>
 Celsius to farenheit conversion
+
+Day 27:<br>
+Write a program to input centimeter and convert to inch,meter and kilometer
