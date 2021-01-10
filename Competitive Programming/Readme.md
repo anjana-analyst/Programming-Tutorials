@@ -102,3 +102,6 @@ Celsius to farenheit conversion
 
 Day 27:<br>
 Write a program to input centimeter and convert to inch,meter and kilometer
+
+Day 28:<br>
+Write a program to convert the given minutes of a person into his age.
