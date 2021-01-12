@@ -5,4 +5,6 @@ Programming languages covered<br>
   <li> C </li>
   <li> C++ </li>
   <li> JS </li>
+  <li>Competitive Programming</li>
 </ul>
+
