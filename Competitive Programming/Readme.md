@@ -1,12 +1,12 @@
 Day 01:<br>
 There was a teacher in a small town who loves coding and he wants to create a program which prints out the whole multiplication table of an entered number for his students.
-Can you help him write a program in python?
+Can you help him write a program?
 
 Day 02:<br>
-Can you help Alex to print double sided stair-case pattern in Python.
+Can you help Alex to print double sided stair-case pattern.
 
 Day 03:<br>
-A Chef was Cooking something special when required exact 200ml water but he doesnot have 200ml cup he has a 500ml cup and a 300ml cup but that dish required exactly 200ml water. Can you solve this problem in python?
+A Chef was Cooking something special when required exact 200ml water but he doesnot have 200ml cup he has a 500ml cup and a 300ml cup but that dish required exactly 200ml water. Can you solve this problem?
 
 Day 04:<br>
 Jack bought a 400 hot dogs for the school picnic. If they were contained in packages of 8 hot dogs, hot many total packages did he buy? Create a python program without using / or % operator
@@ -77,7 +77,7 @@ What is the largest fish length that lefty caught that day?
 Solve without using conditional statements and the loop.
 
 Day 19:<br>
-Write a python program to print semicolon without using a semicolon anywhere in the code.
+Write a program to print semicolon without using a semicolon anywhere in the code.
 
 Day 20:<br>
 To find the square of a number without using actual multiplication or division
@@ -86,10 +86,10 @@ Day 21:<br>
 Write a program that for a given hour and minutes values calculates an angle in degree between the hour and the minute hands. Check whether the minute hand overlapping the hour hand at a given time.
 
 Day 22:<br>
-Write a python program to find if a given year is a leap year or not
+Write a program to find if a given year is a leap year or not
 
 Day 23:<br>
-Write a python program to convert integer values into binary
+Write a program to convert integer values into binary
 
 Day 24:<br>
 Write a code to convert an integer to roman numeral
@@ -105,3 +105,9 @@ Write a program to input centimeter and convert to inch,meter and kilometer
 
 Day 28:<br>
 Write a program to convert the given minutes of a person into his age.
+
+Day 29:<br>
+write a program to takes the user for a distance(in meters) and the time was taken(as three numbers: hours, minutes and seconds) and display the speed in miles per hour.
+
+Day 30:<br>
+Write a program that accepts two integers from the user and then print the sum, the difference , the product, the average, the maximum(the lerger of two integers) the minimum(the smaller of two integers)
